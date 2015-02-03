@@ -3,10 +3,7 @@ describe("Application", function() {
 
     it("should do what I specify", function() {
 
-      var expected = null;
-      var actual = application.myFunction();
-
-      expect( expected ).toBe( actual );
+      expect( null ).toBe( application.myFunction() );
 
     });
 });
